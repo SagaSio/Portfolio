@@ -22,13 +22,13 @@ A collection of coding projects — from university assignments to experiments I
 
 Examples:
 - **Godot Mini Game** — 2D game exploring game logic, interactivity, and pixel art with Aseprite.
-- **
+- **MyShelf Website** - A personal book management app built with Firebase and external APIs.
 
 ---
 
 ## Tech & Tools
 - **Languages:** Python, Java, C, GDScript (Godot), JavaScript and a bit of SQL
-- **Tools:** Git, Godot, Aseprite, React, React Native
+- **Tools:** Git, Godot, Aseprite, React, React Native, Firebase
 
 ---
 

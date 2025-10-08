@@ -1,0 +1,250 @@
+.searchInput {
+    box-sizing: border-box;
+    width: 40%;
+    padding: 8px;
+    margin-top: 30px;
+    font-size: 16px;
+    border: 0px solid #fff;
+    font-family: 'Instrument Serif', serif;
+    position: relative;
+}
+
+.searchResultsContainer{
+    position: relative
+}
+
+.searchResults {
+    position: absolute;
+    top: 100%;
+    z-index: 2;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 8px;
+    font-size: 16px;
+    border: 10px solid #fff;
+    background-color: white;
+}
+
+.searchButton {
+    padding: 8px 16px; 
+    margin-left: 20px;
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white !important;
+    background-color: #9e735b; /* Sets the background to light blue */
+    color: #000; /* Ensures the text is readable */
+    cursor: pointer; /* Makes the cursor a pointer to indicate it's clickable */
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Add hover effect */
+.searchButton:hover {
+    background-color: #c5a899; 
+}
+
+/* Add active (click) effect */
+.searchButton:active {
+    transform: scale(0.95); 
+    background-color: #9e735b;
+}
+
+.MyShelf {
+    color: #6f573d;
+    font-family: 'Instrument Serif', serif;
+    text-align: left; /* Optional: Center align */
+    margin: 20px 0; /* Optional: Adjust spacing */
+    font-size: 60px;
+}
+
+.MyShelfLogin{
+    color: #6f573d;
+    font-family: 'Instrument Serif', serif;
+    text-align: left; /* Optional: Center align */
+    margin: 20px 0; /* Optional: Adjust spacing */
+    font-size: 100px;
+}
+.LoginContainer {
+    margin-top: 13%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -40px;
+}
+.LoginButtonContainer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.LoginSubtext {
+    color: #6f573d;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    word-spacing: 4px;
+}
+.LoginButton {
+    background-color: #5e4031;
+    color: white;
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.LoginButton:hover {
+    background-color: #c5a899;
+}
+
+body {
+    background-color: #f7e9d7; /* Replace with your preferred background colour */
+    margin: 40px; /* Remove default margin for full background coverage */
+    padding: 10; /* Optional, ensures no extra spacing */
+    font-family: 'Instrument Serif', serif; /* Optional, for consistent typography */
+}
+
+.detailsBox {
+    background-color: white; /* Replace with your preferred background colour */
+    margin: 20px 0; /* Remove default margin for full background coverage */
+    font-family: 'Instrument Serif', serif; /* Optional, for consistent typography */
+    font-size: 20px;
+    border: 5px solid #9e735b;
+    border-radius: 5px;
+}
+
+.detailsContent {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Space between IMG and text */
+}
+
+.detailsTitle{
+    color: #6f573d;
+    font-family: 'Instrument Serif', serif;
+    text-align: left; /* Optional: Center align */
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.detailsText{
+    color: #6f573d;
+    font-family: 'Instrument Serif', serif;
+    text-align: left; /* Optional: Center align */
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.coverImage{
+    width: 200px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.resultRow:hover {
+    background-color: #cacaca; 
+}
+
+.resultRow:active {
+    transform: scale(0.95); 
+    background-color: #adadad;
+}
+
+.loadingImage {
+    width: 150px;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 100%;
+    z-index: 10;
+}
+
+.coverNotFound{
+    padding: 40px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f7e9d7;
+}
+
+.backButton {
+    padding: 8px 16px; 
+    float: right;
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white !important;
+    background-color: #9e735b; 
+    color: #000; 
+    cursor: pointer; 
+}
+
+.sbackButton:hover {
+    background-color: #c5a899; 
+}
+
+.backButton:active {
+    transform: scale(0.95); 
+    background-color: #9e735b;
+}
+
+
+.shelfEdge {
+    background-color: #583b2c;
+    height: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+    z-index: 1;
+}
+
+.shelfTop {
+    background-color: transparent;
+    height: 10px;
+    margin-top: 70px;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+    z-index: 1;
+    border: 20px solid transparent;
+    border-bottom: 40px solid #7e5440;
+}
+
+.book {
+    height: 100px;
+    width: 20px;
+    margin-bottom: 200px;
+    transform: translateY(-65px);
+    background-color: rgb(82, 115, 192);
+    /*box-shadow: 3px 7px 5px 2px rgba(0, 0, 0, 0.5);  offsetX offsetY blurRadius spreadRadius color */
+    position: absolute;
+    z-index: 2;
+    border: 3px solid black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-rl;
+    font-size: 12px;
+    color: white;
+}
+
+.book:nth-child(1) {
+    left: 0;
+    margin-left: 0;
+}
+.book:nth-child(n+2) {
+    left: calc((50px) * (var(--book-index)));
+}

@@ -2,6 +2,7 @@
 
 Welcome to my GitHub portfolio!  
 Here I’ve gathered a mix of my favorite **reports** and **code projects** from my studies and personal work.  
+This portfolio is a selection of projects I can share publicly and is far from all the work I’ve done. Many school projects are excluded due to academic integrity.
 
 ---
 

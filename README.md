@@ -21,7 +21,8 @@ Examples:
 A collection of coding projects — from university assignments to experiments I’ve done in my free time.
 
 Examples:
-- **Godot Mini Game** — a small 2D platformer built in Godot.  
+- **Godot Mini Game** — 2D game exploring game logic, interactivity, and pixel art with Aseprite.
+- **
 
 ---
 

@@ -11,9 +11,9 @@ Here I’ve gathered a mix of my favorite **reports** and **code projects** from
 A selection of academic reports and essays that I’m most proud of.  
 
 Examples:
-- **Optimization in Supply Chain Networks** — applied linear programming and sensitivity analysis.  
-- **Sustainability and Decision Models** — explored how data-driven methods can support environmental strategies.  
-- **Exchange Semester Report (Texas)** — reflections on studying abroad and cross-cultural teamwork.
+- **Cognitive Commerce in the Fashion Industry** — Explores how AI and cognitive commerce are transforming the U.S. fashion industry. Uses the Multi-Level Perspective (MLP) framework to show how innovations like chatbots, virtual try-ons, and personalized recommendations are reshaping businesses, customer experience, and industry trends, while highlighting ethical and regulatory challenges.
+
+- **Crumbl Cookies** — Analyzes how Crumbl became the fastest-growing U.S. cookie franchise by leveraging brand personality, STP marketing, and social media engagement rather than radical product innovation. Highlights how the company creates an experience-driven brand with rotating menus, visually appealing packaging, and digital interaction, while discussing challenges such as ethical sourcing, sustainability, and reliance on social media hype.
 
 ---
 

@@ -6,7 +6,7 @@ This project demonstrates a client-server application built using:
 - JSON for catalog data (via the Gson library)
 - Multithreading and synchronization on the server
 
-<pre> ```example/
+<pre>example/
 ├── client/
 │ ├── catalog/ // CatalogItem class
 │ ├── message/ // Message class
@@ -20,7 +20,7 @@ This project demonstrates a client-server application built using:
   ├── message/
   ├── catalog.json
   ├── Server.java // Main server logic
-  └── ClientHandler.java // One per connected client``` </pre>
+  └── ClientHandler.java // One per connected client</pre>
   
 ________________________________________________________________________
 

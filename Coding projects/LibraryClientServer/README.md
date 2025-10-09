@@ -1,4 +1,4 @@
-##Client Server Library
+## Client Server Library
 
 This project demonstrates a client-server application built using:
 - Java sockets for communication
@@ -24,7 +24,7 @@ example/
   
 ________________________________________________________________________
 
-##How to run
+## How to run
 
 Download the two zip files and unzip them.
 Start by entering the folder.
@@ -43,7 +43,7 @@ You can open multiple terminals and have a client on each. The library will upda
 
 ________________________________________________________________________
 
-##Communication Protocol
+## Communication Protocol
 
 Clients send messages as JSON-encoded Message objects, which contain:
 - type: either "borrow" or "return"
@@ -57,14 +57,14 @@ All messages are handled by Server.processRequest(), which:
 - Sends the updated catalog to all connected clients
 ________________________________________________________________________
 
-##Thread Safety
+## Thread Safety
 To handle concurrent access to shared resources:
 A lock (catalogLock) is used in Server.processRequest() to ensure only one thread at a time can
 modify the catalog. This prevents race conditions when multiple users try to borrow the same item
 
 ________________________________________________________________________
 
-##How to Use the Application
+## How to Use the Application
 
 Launch the client application.
 On startup, you will be prompted to enter your username to log in.
@@ -88,7 +88,7 @@ Items borrowed by others will have the “Borrow” button disabled.
 Click “Log Out” to return to the login screen.
 ________________________________________________________________________
 
-##Features
+## Features
 
 Features Implemented:
 - Persistent catalog loaded from and saved to catalog.json
